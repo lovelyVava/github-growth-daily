@@ -1,0 +1,27 @@
+# GitHub 开源增长日报
+
+由 ChatGPT 定时任务维护的 GitHub 开源项目增长观察仓库。
+
+- 执行时间：北京时间每天 08:00（Asia/Shanghai）
+- 数据重点：近 24 小时与近 7 天新增 Star、Fork、贡献活跃度及讨论热度
+- 输出语言：中文 Markdown
+- 数据来源：[GitHub Trending Daily](https://github.com/trending?since=daily)、[GitHub Trending Weekly](https://github.com/trending?since=weekly) 及各项目公开仓库信息
+
+## 日报索引
+
+- [2026-07-29](reports/2026-07-29.md)
+- [2026-07-28](reports/2026-07-28.md)
+- [2026-07-27](reports/2026-07-27.md)
+
+## 写入约定
+
+1. 每天生成 `reports/YYYY-MM-DD.md`。
+2. 报告必须注明抓取时间、统计口径、估算或缺失数据。
+3. 与上一期比较排名变化、新上榜、持续热门和跌出榜单的项目。
+4. 不把累计 Star 当作当日增长；优先使用滚动 24 小时和 7 日数据。
+5. 同一天文件已存在时，除非明确修正，不重复覆盖。
+6. 每次写入报告后，同步更新本页的日报索引。
+
+## 说明
+
+GitHub Trending 的窗口边界和排序算法并未完全公开，日报中的“爆发原因”可能包含基于公开信息的分析推断，不构成投资或安全建议。
